@@ -2,51 +2,52 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.products { 
-	
-	table {
-		border-collapse: collapse;
-	}
-	
-	table tr td { 
-		padding: 5px;
-		vertical-align: top;
-	}
-	
-	.list_image { 
-		width: 60px;
-		height: 70px;
-	}
+/* START_HIGHLIGHT */
+.products {
+  table {
+    border-collapse: collapse;
+  }
 
-	.list_description { 
-		width: 60%;
+  table tr td {
+    padding: 5px;
+    vertical-align: top;
+  }
 
-		dl {
-			margin: 0;
-		}
+  .list_image {
+    width:  60px;
+    height: 70px;
+  }
 
-		dt {
-			color: #244;
-			font-weight: bold;
-			font-size: larger;
-		}
+  .list_description {
+    width: 60%;
 
-		dd {
-			margin: 0;
-		} 
-	}
+    dl {
+      margin: 0;
+    }
 
-	.list_actions { 
-		font-size: x-small; text-align: right;
-		padding-left: lem;
-	}
-	
-	.list_line_even { 
-		background: #e0f8f8;
-	}
+    dt {
+      color:        #244;
+      font-weight:  bold;
+      font-size:    larger;
+    }
 
-	.list_line_odd { 
-		background: #f8b0f8;
-	}
+    dd {
+      margin: 0;
+    }
+  }
 
+  .list_actions {
+    font-size:    x-small;
+    text-align:   right;
+    padding-left: 1em;
+  }
+
+  .list_line_even {
+    background:   #e0f8f8;
+  }
+
+  .list_line_odd {
+    background:   #f8b0f8;
+  }
 }
+/* END_HIGHLIGHT */
